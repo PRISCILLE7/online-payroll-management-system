@@ -4,6 +4,20 @@
 </div>
 
 <p align="center">
+
+
+# Introduction
+
+Payroll management is a crucial organizational function, ensuring fair and timely employee compensation while maintaining compliance with legal requirements related to taxes and social contributions. However, managing payroll is complex due to variable salaries, bonuses, leave, absences, and regulatory updates. To tackle these challenges, automation and digitalization in payroll have become essential.
+
+This project aims to design and implement a computerized payroll management system, providing accurate, centralized payroll processing. It includes developing key modules to handle the payroll cycle efficiently, ensure data security, and simplify HR operations, ultimately reducing errors and enhancing organizational effectiveness.
+
+# Context
+
+In today’s competitive environment, digital transformation in HR is essential, with payroll as a key area for improving productivity, accuracy, and compliance. Traditionally, payroll was managed manually, which is time-consuming and prone to errors. Modern payroll systems automate calculations, integrate functions like leave and absence tracking, and ensure data security, helping companies reduce costs and maintain regulatory compliance.
+
+This project, therefore, focuses on developing a dedicated payroll management system that enables streamlined and compliant payroll processes, adapting to both legislative changes and organizational needs.
+
 &emsp;
   <img src="https://img.shields.io/github/languages/code-size/MD-MAFUJUL-HASAN/Online-Payroll-Management-System?style=for-the-badge">
   &emsp;
@@ -43,11 +57,11 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
 
    ```python
 
-   git clone https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System.git
+   git clone https://github.com/PRISCILLE7/online-payroll-management-system.git
 
    ```
 
-2. Find the cloned folder on your system directory. Example- `C:\Users\mdton\Online-Payroll-Management-System`
+2. Find the cloned folder on your system directory. Example- `C:\Users\toto\Online-Payroll-Management-System`
 
 3. Copy and Paste the cloned folder in the **htdocs** folder in XAMPP folder on your machine.
 
@@ -84,22 +98,6 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
 
 
 ##  If you like my project hit a star(⭐) button
-
-
-
-# Screenshots
-![Image of login](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/login.png)
-![Image of dashboard](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/dashboard.png)
-![Image of branch](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/branch.png)
-![Image of department](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/department.png)
-![Image of designation](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/designation.png)
-![Image of employee](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/employee.png)
-![Image of holiday](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/holiday.png)
-![Image of payslip](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/payslip.png)
-![Image of shift](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/shift.png)
-
-
-
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

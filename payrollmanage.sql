@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : sam. 21 sep. 2024 à 12:56
+-- Généré le : mar. 22 oct. 2024 à 05:21
 -- Version du serveur : 10.4.32-MariaDB
 -- Version de PHP : 8.0.30
 
@@ -218,8 +218,9 @@ INSERT INTO `employee` (`Employee_id`, `Employee_name`, `Current_address`, `Perm
 (2, 'Mr Ibrahima', 'dopidaer', 'mamoun', 1776360940, 'Male', 'ibrahima12@gmail.com', '1991-04-24', 'B.Sc.(CA & IT)', '2023-08-30', '2023-08-30', 1, 3, 3, 2, 'Ibrahima@123', 1237891452369854, '2023-08-30', '2023-08-30', 1, 'Ibrahima@123', 2, 'cau gaiy', 50000.000, 200.000),
 (3, 'Mr David', 'bamboma', 'hanoi', 848212456789, 'Male', 'david@gmail.com', '2005-02-26', 'B.Sc.(CA & IT)', '2023-08-30', '2023-08-30', 1, 4, 2, 3, 'David@123', 4561978236547895, '2023-08-30', '2023-08-30', 1, 'David@123', 2, 'Kinshasa', 50000.000, 200.000),
 (4, 'Ms Priscille', 'dalaba', 'Cau Gaiy', 1234567890, 'Female', 'priscille@gmail.com', '1994-04-22', 'B.Sc.(CA & IT)', '2023-08-30', '2023-08-30', 6, 3, 4, 2, 'Priscille@123', 301245589012345, '2023-08-30', '2023-08-30', 1, 'Priscille@123', 3, 'Kinshasa', 18000.000, 200.000),
-(5, 'MD NASIM KHAN', 'Gazipur', 'Barishal', 1234567890, 'Male', 'def@gmail.com', '1994-01-15', 'MBA', '2023-08-30', '2023-08-30', 8, 3, 15, 3, 'Def@12345', 345678912345678, '2023-08-30', '2023-08-30', 1, 'Def@12345', 3, 'Khulna', 15000.000, 200.000),
-(6, 'SAMIM ALAM', 'Noakhali', 'Dhaka', 4831758210, 'Male', 'xyz@mail.com', '2000-04-12', 'HSC', '2023-08-31', '2023-08-31', 6, 4, 20, 1, 'Xyz@12345', 56496469486, '2023-08-30', '2023-08-31', 1, 'Xyz@12345', 3, 'hbgfhsd', 20000.000, 200.000);
+(5, 'Bob', 'hanoi', 'hanoi', 1234567890, 'Male', 'def@gmail.com', '1994-01-15', 'MBA', '2023-08-30', '2023-08-30', 8, 3, 15, 3, 'Def@12345', 345678912345678, '2023-08-30', '2023-08-30', 1, 'Def@12345', 3, 'Khulna', 15000.000, 200.000),
+(6, 'Biaounbe Dieudonne', 'dieudonne@gmail.com', 'Dhaka', 4831758210, 'Male', 'xyz@mail.com', '2000-04-12', 'HSC', '2023-08-31', '2023-08-31', 6, 4, 20, 1, 'Xyz@12345', 56496469486, '2023-08-30', '2023-08-31', 2, 'Xyz@12345', 3, 'hbgfhsd', 20000.000, 200.000),
+(15, 'frezze sacré', 'hanoi', 'hanoi', 4831758210, 'Male', 'fraideshacre@gmail.com', '1999-11-15', 'hsc', '2022-08-15', '2022-08-15', 15, 2, 8, 8, 'Theghoul12@', 6265355265, '2022-08-25', '2022-08-24', 1, 'Theghoul12@', 5, 'Conakry', 2600.000, 0.000);
 
 -- --------------------------------------------------------
 
@@ -506,7 +507,14 @@ INSERT INTO `payroll` (`Payroll_id`, `Employee_id`, `Payroll_month`, `Payroll_ye
 (63, 5, 8, 2023, 19, 26, -4),
 (64, 6, 8, 2023, 20, 26, -3),
 (65, 5, 9, 2024, 19, 26, -4),
-(66, 5, 9, 2024, 19, 26, -4);
+(66, 5, 9, 2024, 19, 26, -4),
+(67, 4, 9, 2024, 22, 26, -1),
+(68, 2, 9, 2024, 21, 26, -2),
+(69, 5, 9, 2024, 19, 26, -4),
+(70, 6, 10, 2024, 20, 26, -3),
+(71, 5, 10, 2024, 19, 26, -4),
+(72, 5, 10, 2024, 19, 26, -4),
+(73, 6, 10, 2024, 20, 26, -3);
 
 -- --------------------------------------------------------
 
@@ -533,7 +541,14 @@ INSERT INTO `payroll_details` (`Payroll_detail_id`, `Employee_id`, `Net_salary`,
 (63, 5, 11300.000, 0.000),
 (64, 6, 15800.000, 0.000),
 (65, 5, 11300.000, 0.000),
-(66, 5, 11300.000, 0.000);
+(66, 5, 11300.000, 0.000),
+(67, 4, 15400.000, 0.000),
+(68, 2, 41466.668, 0.000),
+(69, 5, 11300.000, 0.000),
+(70, 6, 15800.000, 0.000),
+(71, 5, 11300.000, 0.000),
+(72, 5, 11300.000, 0.000),
+(73, 6, 15800.000, 0.000);
 
 -- --------------------------------------------------------
 
@@ -658,7 +673,7 @@ ALTER TABLE `designation`
 -- AUTO_INCREMENT pour la table `employee`
 --
 ALTER TABLE `employee`
-  MODIFY `Employee_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `Employee_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT pour la table `employee_leaves`
@@ -676,13 +691,13 @@ ALTER TABLE `holidays`
 -- AUTO_INCREMENT pour la table `payroll`
 --
 ALTER TABLE `payroll`
-  MODIFY `Payroll_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+  MODIFY `Payroll_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 
 --
 -- AUTO_INCREMENT pour la table `payroll_details`
 --
 ALTER TABLE `payroll_details`
-  MODIFY `Payroll_detail_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+  MODIFY `Payroll_detail_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=74;
 
 --
 -- AUTO_INCREMENT pour la table `shift`
